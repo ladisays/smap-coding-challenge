@@ -19,6 +19,8 @@ from app import views as app_views
 
 urlpatterns = [
     url(r'^$', app_views.index),
+    url(r'^consumers/', app_views.index),
+    url(r'^consumer/', app_views.index),
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include('api.urls')),
 ]

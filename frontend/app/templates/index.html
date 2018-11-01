@@ -2,6 +2,8 @@
 
 {% block content %}
 
-<h1>Frontend challenge</h1>
+{% csrf_token %}
+<div id="app"></div>
+<script src="http://localhost:8002/main.js"></script>
 
 {% endblock %}
