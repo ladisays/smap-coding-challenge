@@ -22,4 +22,5 @@ Open another tab, install the dependencies and devDependencies and start the ser
 ```sh
 $ cd app
 $ npm install
+$ npm run dev
 ```
